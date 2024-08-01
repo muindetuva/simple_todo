@@ -1,0 +1,32 @@
+section {
+  display: flex;
+}
+
+section > div {
+  flex: 1;
+  margin: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit {
+  margin: 10px auto;
+  width: 100%;
+  padding: 2px;
+}
+.todo-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  margin: 2px;
+}
+
+li::before {
+  content: ">";
+}
