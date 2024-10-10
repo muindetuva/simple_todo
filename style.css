@@ -1,3 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  text-align: center;
+  padding: 20px 10px;
+  background-color: #00004e;
+}
+
+body h1{
+  text-transform: uppercase;
+}
+
 section {
   display: flex;
 }
@@ -32,10 +48,13 @@ li::before {
   content: ">";
 }
 
+
 .form , .list_items{
-  height: 100vh;
+  height: auto;
   padding: 20px;
   text-align: center;
-  border: solid black 2px;
+  border: none;
+  border-radius: 15px;
+  background-color: #ededed;
   
 }
