@@ -71,6 +71,7 @@ input[type=text] ,input[type=submit]{
 
 label{
   text-align: start;
+  margin: 0 0 0 10px;
 }
 
 input[type=submit]{
@@ -79,6 +80,12 @@ input[type=submit]{
  font-weight: 600;
 
 
+}
+
+input[type=submit]:hover{
+  background-color:orange;
+  color: #00004e;
+  transition: 0.3s ease-in;
 }
 
 input:focus{
