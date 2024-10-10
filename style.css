@@ -65,13 +65,19 @@ input[type=text] ,input[type=submit]{
   padding: 10px;
   border-radius: 5px;
   border: none;
+  margin: 10px 0;
 
+}
+
+label{
+  text-align: start;
 }
 
 input[type=submit]{
  background-color: #00004e;
  color: orange;
  font-weight: 600;
+
 
 }
 
