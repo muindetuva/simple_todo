@@ -21,6 +21,7 @@ section > div {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 15px;
 }
 
 button {
@@ -29,4 +30,12 @@ button {
 
 li::before {
   content: ">";
+}
+
+.form , .list_items{
+  height: 100vh;
+  padding: 20px;
+  text-align: center;
+  border: solid black 2px;
+  
 }
