@@ -12,6 +12,8 @@ body{
 
 body h1{
   text-transform: uppercase;
+  color: orange;
+  margin: 0 0 20px 0;
 }
 
 section {
@@ -57,4 +59,10 @@ li::before {
   border-radius: 15px;
   background-color: #ededed;
   
+}
+
+input[type=text] ,input[type=submit]{
+  padding: 10px;
+  border-radius: 5px;
+
 }
