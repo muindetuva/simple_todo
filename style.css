@@ -11,7 +11,7 @@ body{
 }
 
 body h1{
-  text-transform: uppercase;
+ 
   color: orange;
   margin: 0 0 20px 0;
 }
@@ -69,6 +69,10 @@ input[type=text] ,input[type=submit]{
 
 }
 
+.input-group input{
+  background-color: #fff;
+}
+
 label{
   text-align: start;
   margin: 0 0 0 10px;
@@ -90,4 +94,13 @@ input[type=submit]:hover{
 
 input:focus{
   outline: none;
+}
+
+ul button{
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00004e;
+  color: orange;
+  font-weight: 600;
 }
